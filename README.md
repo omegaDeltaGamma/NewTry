@@ -1,2 +1,2 @@
 # NewTry
-The link is
+The link is https://omegadeltagamma.github.io/NewTry/.
