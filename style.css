@@ -1,0 +1,257 @@
+body ,html {
+    margin: 0;
+    font-family: 'Roboto', sans-serif ;
+}
+
+.zone {
+    color: #ffffff;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.first {
+    background-color: #030B09;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 1.2em;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0px;
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ED7841;
+    font-family: cursive ;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px;
+}
+
+
+
+.push {
+    float: right;
+}
+
+
+.cover {
+    background: url(./img/cool-background.png) no-repeat center center fixed;
+    background-blend-mode: screen;
+    height: 50vh;
+    padding: 50px ;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 0;
+}
+
+.main-paragraph {
+    letter-spacing: 2px;
+    text-transform: uppercase ;
+}
+
+.fbutton {
+    background: none;
+    border: solid 3px #ffffff;
+    color: #ffffff;
+    font-size: 0.6em;
+    padding: 10px 30px;
+    -moz-transition: background-color 0.5s ease-in;
+    -webkit-transition: background-color 0.5s ease-in;
+    -o-transition: background-color 0.5s ease-in;
+    transition: background-color 0.5s ease-in;
+}
+
+.fbutton:hover {
+    cursor: pointer;
+    background-color: rgba(33, 33, 26, 0.30);
+}
+
+.context {
+    margin: 0;
+}
+
+.main-bracket {
+    padding: 60px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 1.1em;
+    color: #ED7841;
+}
+
+p {
+    color: black;
+    font-size: 0.6em;
+    font-family: 'Roboto', lighter;
+    line-height: 35px;
+}
+
+.sbutton {
+    background: none;
+    border: solid 3px #ED7841;
+    color: #ED7841;
+    font-size: 0.6em;
+    padding: 10px 30px;
+    -moz-transition: background-color 0.5s ease-in;
+    -webkit-transition: background-color 0.5s ease-in;
+    -o-transition: background-color 0.5s ease-in;
+    transition: background-color 0.5s ease-in;
+}
+
+.sbutton:hover {
+    cursor: pointer;
+    background-color: rgba(235, 108, 49, 0.3);
+}
+
+.second-bracket {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+
+}
+
+.A {
+    background-color: rgb(243, 243, 243);
+    padding: 100px;
+}
+
+h2 {
+    font-size: 0.9em;
+    color: #ED7841;
+    text-transform: uppercase;
+}
+
+img {
+    width: 100%;
+}
+
+.B {
+    background-color: rgb(248, 248, 248);
+    padding: 100px;
+}
+
+.third-bracket {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 40px;
+    padding: 80px;
+}
+
+.gg-laptop {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 50px;
+    height: 30px;
+    border: 2px solid lightgrey;
+    border-radius: 2px
+}
+
+.gg-laptop::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background-color: lightgrey;
+    left: -4px;
+    bottom: -5px;
+    border-radius: 100px
+}
+
+.gg-card-diamonds {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 30px;
+    height: 30px;
+    border: 2px solid lightgrey;
+    border-radius: 3px
+}
+
+.gg-card-diamonds::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: lightgrey;
+    transform: rotate(45deg);
+    top: 6px;
+    left: 4px
+}
+
+
+.end {
+    background-color:#ED7841;
+    margin: 0;
+    padding: 60px;
+}
+
+.finish {
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+label {
+    font-size: 0.6em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+input {
+    background: none;
+    border: solid 3px #ffffff;
+    color: #ffffff;
+    font-size: 0.6em;
+}
+
+.half1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+}
+
+#name, #mail {
+    width: 100%;
+    height: 30px;
+}
+
+.half2 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#message {
+    width: 100%;
+    height: 200px;
+}
+
+.over {
+    font-size: 0.5em;
+    color: lightgrey;
+}
