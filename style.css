@@ -18,6 +18,16 @@ body ,html {
     padding: 0;
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+    
+    .first {
+        font-size: 0.9em;
+    }
+}
+
 ul {
     list-style: none;
     padding: 20px;
